@@ -3,5 +3,10 @@
         "features/step_definitions/*.js"
     ],
     "cucumberautocomplete.syncfeatures": "features/*feature",
-    "cucumberautocomplete.strictGherkinCompletion": true
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    }
 }
