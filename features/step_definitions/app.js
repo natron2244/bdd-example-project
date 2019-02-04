@@ -13,3 +13,7 @@ When('I open the Side Menu', async function() {
 When('I select {string} on the Side Menu', async function(menuOption) {
     await testController.click(sideMenu.menuOption(menuOption));
 });
+
+Then('I see the title {string} on the Nav Bar', async function(title) {
+    await testController.click(Selector('body > ion-app > ng-component > ion-nav > page-list > ion-header > ion-navbar > div.toolbar-content.toolbar-content-md > ion-title > div').withText(title));
+});
