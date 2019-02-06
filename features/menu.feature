@@ -1,4 +1,4 @@
-@active @debug
+@demo @debug
 Feature: Navigating the app
 
     # Background:
